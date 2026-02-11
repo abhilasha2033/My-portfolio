@@ -1,0 +1,28 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+.outer{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+ justify-content: center;
+ align-items: center; 
+ background-color: rgb(1, 1, 1);
+}
+.one, .two, .three, .four{
+ border: 2px, solid white;
+ border-radius: 50%;
+ margin: 20px;
+ padding: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.four{
+    height: 50px;
+    width: 50px;
+    border-color: black;
+    background-color: rgb(227, 174, 38);
+}
