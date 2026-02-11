@@ -90,8 +90,8 @@ body{
 
 /* SECTIONS */
 section{
-  min-height:100vh;
-  padding:120px 60px;
+  min-height:80vh;
+  padding:40px 20px;
 }
 
 .education {
@@ -157,4 +157,13 @@ p{
 a{
   text-decoration: none;
   color: rgb(5, 62, 112);
+}
+
+@media (max-width: 600px) {
+  .section h1 {
+    font-size: 28px;
+  }
+  .section p {
+    font-size: 16px;
+  }
 }
