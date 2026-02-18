@@ -167,3 +167,17 @@ a{
     font-size: 16px;
   }
 }
+.form, .clock, .calculator, .weather, .sun, .lcc {
+  margin-top: 20px;
+  padding: 20px;
+  height: 80px;
+  display: inline-block;
+  align-items: center;
+  color: var(--dark);
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
